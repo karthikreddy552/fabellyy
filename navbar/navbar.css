@@ -12,7 +12,7 @@
     justify-content: space-between;
     padding-top: 15px;
     font-size: 13px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 13px;
     font-weight: 700;
     vertical-align: top;
@@ -37,7 +37,7 @@
 .fi {
     width: 100px;
     padding-top: -5px;
-    background-color: #fff;
+    /* background-color: black; */
 }
 
 
@@ -69,6 +69,7 @@ hr {
     display: flex;
     padding-top: 15px;
     justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
 }
 
 #midnav>div~div {
@@ -76,22 +77,24 @@ hr {
     font-size: 12px;
     font-weight: 300px;
     align-items: center;
+    text-align: center;
 }
 
 
 /* styling for Fabelly image in midnav */
 
 .fb {
-    width: 160px;
-    margin-left: 10px;
+    width: 190px;
+    margin-left: 15px;
 }
 
 
 /* styling for span elements in midnav */
 
 #list {
-    margin-left: -5px;
-    padding-top: 15px;
+    margin-left: -10px;
+    padding-top: 8px;
+    gap: 0.5px;
 }
 
 
@@ -99,6 +102,7 @@ hr {
 
 .sicon i {
     font-size: 17px;
+    margin-left: 100px;
 }
 
 .sicon {
@@ -110,6 +114,7 @@ hr {
 
 .select {
     padding: 3px;
+    margin-right: 15px;
 }
 
 
@@ -118,9 +123,10 @@ hr {
 #btnav {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #fee8e4;
     text-align: center;
+    margin-top: -5px;
 }
 
 #btnav div {
