@@ -1,0 +1,19 @@
+{
+    "folders": [
+		{
+			"path": "..\\.."
+		},
+		{
+			"path": "..\\..\\..\\gt"
+		},
+		{
+			"path": "..\\..\\..\\github"
+		},
+		{
+			"path": "..\\..\\..\\masai html and css"
+		}
+	],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "fabeelyproj"
+    }
+}
