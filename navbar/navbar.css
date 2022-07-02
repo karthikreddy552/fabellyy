@@ -11,16 +11,21 @@
     display: flex;
     justify-content: space-between;
     padding-top: 15px;
-    font-size: 13px;
     font-family: 'Poppins', sans-serif;
-    font-size: 13px;
+    font-size: 10.5px;
     font-weight: 700;
     vertical-align: top;
     text-align: center;
+    margin-left: 12px;
 }
 
 #topnav>div:nth-child(3) {
     margin-right: 20px;
+}
+
+.txt {
+    text-decoration: none;
+    display: flex;
 }
 
 
@@ -59,7 +64,6 @@ hr {
     gap: 10px;
     height: auto;
     padding-bottom: 10px;
-    /* width: 50px; */
 }
 
 
@@ -92,9 +96,56 @@ hr {
 /* styling for span elements in midnav */
 
 #list {
-    margin-left: -10px;
+    margin-left: 20px;
     padding-top: 8px;
     gap: 0.5px;
+}
+
+.link {
+    background: none;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0px;
+    font-size: 12px;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdownMenu {
+    position: absolute;
+    left: 0;
+    top: calc(100% + .25rem);
+    background-color: #fff;
+    padding: .75rem;
+    border-radius: .25rem;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+}
+
+.dropdown>.link:hover+.dropdownMenu {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.info-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 50%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-right: 100px;
+}
+
+.dropdown-links {
+    padding: 20px;
+}
+
+.dimg {
+    padding-top: 50px;
 }
 
 
